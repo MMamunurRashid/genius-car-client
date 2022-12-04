@@ -29,7 +29,7 @@ const CheckOut = () => {
     // if (phone.length > 10) {
     //   alert("Phone number should be 11 characters");
     // }
-    fetch("http://localhost:5000/orders", {
+    fetch("https://genius-car-server-khaki-mu.vercel.app/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",
